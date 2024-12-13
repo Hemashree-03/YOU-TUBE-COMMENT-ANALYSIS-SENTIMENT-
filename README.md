@@ -2,23 +2,38 @@ Goal: Perform sentiment analysis on YouTube comments and create a UI to compute 
 
 Sentiment Score Breakdown
 Negative: -1 to < 0
+
 Neutral: 0
+
 Positive: > 0 to 1
 
 Workflow
+
 Run the following files in sequence:
+
 comments.ipynb: Collect comments using the YouTube API.
+
 engineering.ipynb: Preprocess data for sentiment analysis.
+
 pipeline.py: Manage daily feature updates.
+
 pipene.py: Handle predictions for new data.
+
 app.py: Deploy the user interface.
 
+
 Setting up the YouTube API
+
 Log into your Google account.
+
 Go to Google Cloud Console.
+
 Create a new project.
+
 Search for and enable YouTube Data API v3.
+
 Generate API credentials (API Key).
+
 Save the API Key in a .api_key file
 > cat .api_key  
 KEY=PASTE_VALUE_HERE
@@ -70,9 +85,13 @@ Model Performance: Random Forest Regressor achieved promising results with MSE a
 User Interaction: The Gradio interface and Huggingface App simplify sentiment analysis for end users.
 
 Conclusion
+
 This project demonstrates a complete pipeline for:
 
 Collecting and labeling YouTube comments.
+
 Training and deploying sentiment analysis models.
+
 Building interactive tools for user sentiment insights.
+
 The solution benefits YouTube content creators and researchers analyzing viewer feedback.
