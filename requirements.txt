@@ -1,0 +1,7 @@
+google-api-python-client
+python-dotenv
+pandas
+vaderSentiment
+hopsworks
+seaborn
+scikit-learn
