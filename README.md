@@ -67,8 +67,11 @@ Huggingface App
 Access the sentiment analysis app here.
 
 How to Run
+
 Data Collection
+
 Set up the Google API key for YouTube API.
+
 Configure the .api_key file with:
 YouTube API key
 Hopsworks API key
